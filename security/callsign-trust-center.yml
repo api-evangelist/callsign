@@ -1,0 +1,31 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.callsign.com/security-and-compliance
+url: https://www.callsign.com/security-and-compliance
+certifications:
+- ISO/IEC 27001
+- SOC 2
+frameworks:
+- AICPA SOC (AICPA attestation logo displayed)
+report_access: >-
+  No self-serve trust portal. Callsign states it can provide full supporting
+  documentation, evidence, and information about the specific controls in place
+  on request (via Contact / Support).
+trust_subdomain:
+  host: https://trust.callsign.com
+  status: 403
+evidence:
+- source: https://www.callsign.com/security-and-compliance
+  keywords:
+  - iso/iec 27001
+  - information security management
+  - aicpa
+  - security and compliance
+- source: https://www.callsign.com/
+  keywords:
+  - iso/iec 27001
+  - soc 2
+notes: >-
+  Certifications are named on the marketing security-and-compliance page rather
+  than a dedicated machine-readable trust center. SOC 2 shown via the AICPA
+  attestation logo; ISO/IEC 27001 named explicitly.

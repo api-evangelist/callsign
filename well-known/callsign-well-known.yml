@@ -1,0 +1,20 @@
+generated: '2026-07-18'
+method: searched
+source: live probes of /.well-known/* on Callsign hosts
+host: https://www.callsign.com
+documents:
+- path: /.well-known/security.txt
+  status: 200
+  file: callsign-security.txt
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: >-
+  Only /.well-known/security.txt is published (RFC 9116). The docs host
+  (docs.callsign.com) returns 404 for /.well-known/security.txt and
+  /.well-known/openid-configuration.

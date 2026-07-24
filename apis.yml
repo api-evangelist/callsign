@@ -1,8 +1,31 @@
 aid: callsign
 name: CallSign
-description: 'CallSign is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Callsign is a digital trust platform for fraud prevention, authentication, and
+  identity intelligence. Its Intelligence Engine combines behavioral biometrics,
+  device fingerprinting, telco intelligence, and threat ensembling with an
+  orchestration layer that applies dynamic interventions across customer
+  journeys - login and access, online payments, account creation, and Zero Trust
+  network access - to recognize and authenticate users passively. The
+  Authentication Suite (Callsign One) delivers passwordless, low-friction
+  authentication, and the platform targets account takeover, social engineering
+  and scams, malware and bots, SIM swap, call divert, and synthetic identity.
+  Callsign integrates via REST APIs and web and mobile SDKs, and is certified to
+  ISO/IEC 27001 with SOC 2 attestation. Added to the API Evangelist network from
+  the Accel portfolio and enriched from Callsign's public developer surface.
 url: https://raw.githubusercontent.com/api-evangelist/callsign/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.callsign.com/media/general-images/in-page-images/_1200x630_crop_center-center_none/Homepage-Account-login-access-person-with-phone-content-1640x1200.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,10 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Ai
+- Identity
+- Authentication
+- Fraud Prevention
+- Behavioral Biometrics
+- Security
+- Fintech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +53,40 @@ maintainers:
 common:
 - type: Website
   url: http://www.callsign.com
+- type: DeveloperPortal
+  url: https://www.callsign.com/developers
+- type: Documentation
+  url: https://docs.callsign.com/
+- type: APIReference
+  url: https://docs.callsign.com/
+- type: Authentication
+  url: https://docs.callsign.com/auth
+- type: Support
+  url: https://support.callsign.com
+- type: Blog
+  url: https://www.callsign.com/news
+- type: TermsOfService
+  url: https://www.callsign.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.callsign.com/privacy-notice
+- type: Compliance
+  url: https://www.callsign.com/security-and-compliance
+- type: TrustCenter
+  url: security/callsign-trust-center.yml
+- type: Security
+  url: security/callsign-vulnerability-disclosure.yml
+- type: VulnerabilityDisclosure
+  url: security/callsign-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/callsign-domain-security.yml
+- type: SecurityTxt
+  url: well-known/callsign-security.txt
+- type: WellKnown
+  url: well-known/callsign-well-known.yml
+- type: LLMsTxt
+  url: llms/callsign-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
